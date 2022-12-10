@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MochaTest</string>
+
+
+    <!-- Alert screen-->
+    <string name="alert_started_at">Started: </string>
+    <string name="alert_ended_at">Ended: </string>
+    <string name="alert_sent_by">Sent by %1s </string>
+    <string name="alert_description_more">Read more</string>
+    <string name="alert_description_less">Read less</string>
+
+</resources>

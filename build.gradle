@@ -1,0 +1,16 @@
+buildscript {
+    ext {
+        hilt_version = '2.44'
+        coil_version = '2.2.1'
+        desugar_version = '1.1.5'
+        kotlin_version = '1.6.21'
+        accompanist_version = '0.25.1'
+    }
+}
+plugins {
+    id 'com.android.application' version '7.3.1' apply false
+    id 'com.android.library' version '7.3.1' apply false
+    id 'org.jetbrains.kotlin.android' version '1.7.20' apply false
+    id 'com.google.dagger.hilt.android' version "$hilt_version" apply false
+    id "org.jetbrains.kotlin.plugin.serialization" version "$kotlin_version" apply false
+}
